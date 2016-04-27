@@ -23,7 +23,6 @@ public class CalculatorTests
 		calc = new Calculator();
 	}
 
-
 	@Test
 	public void addNumbers() throws CalculatorNotEnabledException
 	{
@@ -43,7 +42,7 @@ public class CalculatorTests
 	}
 
 	@Test
-	public void multiplyNumbers() throws CalculatorNotEnabledException, DivideByZeroException
+	public void multiplyNumbers() throws CalculatorNotEnabledException
 	{
 		assertEquals(35.0f, calc.multiply(7, 5));
 	}
@@ -66,5 +65,4 @@ public class CalculatorTests
 	{
 		calc = null;
 	}
-
 }
