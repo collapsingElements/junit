@@ -5,7 +5,13 @@ import de.dhbw.junit.examples.calculator.exceptions.DivideByZeroException;
 
 /**
  * Created by CHeizmann on 26.04.16.
+ *
+ * Simple Calculator
+ *
+ * functions: enable, disable, add, subtract, multiply, divide
+ * exceptions: CalculatorNotEnabledException, DivideByZeroException
  */
+
 public class Calculator
 {
 
@@ -31,7 +37,7 @@ public class Calculator
 
 	}
 
-	public float multiply(float numberA, float numberB) throws CalculatorNotEnabledException, DivideByZeroException
+	public float multiply(float numberA, float numberB) throws CalculatorNotEnabledException
 	{
 		checkIfEnabled();
 
